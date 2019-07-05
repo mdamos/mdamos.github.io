@@ -9,17 +9,19 @@
         <title>InterAACt | User Guide</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="style.css" href="">
+        <link rel="shortcut icon" type="image/x-icon" href="img/android-chrome-512x512_new.png">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <h1>InterAACt User Guide</h1>
+            <img src="img/InterAACt_logo_smaller_new.jpg" alt="InterAACt logo" width="30%" height="30%"/>
+            <h1>The User Guide</h1>
 
         </header>
-
+<!-- -------------------------------------------- TODO: Add alt text to all images! -------------------------------------------- -->
         <nav>
             <h2>Table of Contents</h2>
             <ul>
@@ -29,6 +31,7 @@
                     <ul>
                         <li><a href="#view">Viewing your contacts</a></li>
                         <li><a href="#create">Creating a new contact</a></li>
+                        <li><a href="#search">Searching for a contact</a></li>
                         <li><a href="#delete">Deleting a contact</a></li>
                         <li><a href="#scroll">Scrolling</a></li>
                     </ul>
@@ -43,25 +46,30 @@
             </ul>
         </nav>
 
-        <a name="start"></a> <h2>Getting Started</h2>
-            <p>To use InterAACt, you need to have a Google account. You can use this account to sign <br/>
-                into the application.</p>
-
         <br/>
+
+        <a name="start"></a> <h2>Getting Started</h2>
+            <p>To use InterAACt, you need to have a Google account. You can use this account to sign 
+                into the application. For the best experience, it is recommended that you <strong>use Google <br/>
+                Chrome </strong>as your device's default browser, set your device's screen orientation to
+                <strong>landscape mode</strong>, and that <strong>your device is a tablet (8-inch screen or larger)</strong>. 
+                Make sure that<br/> you are connected to WiFi or using cellular data.</p>
+
         <br/>
         
         <a name="login"></a><h2>Login to InterAACt</h2>
+        <img src="img/loginScreen.jpg" width="25%" height="25%"/>
             <ol>
-                <li>Press the "Login with Google" button.</li>
+                <li>Press the "Sign in with Google" button.</li>
                 <li>Choose a Google account to sign in with. If none are listed, you either don't have any <br/> 
                     Google accounts or are not currently signed into any on your device.</li>
-                <li>Once you're logged in, your screen orientation will change to landscape mode.</li>
+                <li>Once you're logged in, your device's screen orientation will change to landscape mode.</li>
             </ol>  
             
         <br/>
-        <br/>
 
         <a name="contacts"></a><h2>Contacts</h2>
+        <img src="img/contactGrid.jpg" width="25%" height="25%"/>
             <a name="view"></a><h3>Viewing your contacts</h3>
                 <ol>
                     <li>On the home page, press the "View Contacts" button</li>
@@ -76,6 +84,13 @@
                          the screen.</li>
                     <li>You will be directed back to the home page, where you can press "View Contacts" to <br/>
                         see your new contact.</li>
+                </ol>
+            <a name="search"></a><h3>Searching for a contact</h3>
+                <ol>
+                    <li>In the top right-hand corner of your contact list, locate and press on the magnifying <br/>
+                        glass icon.</li>
+                    <li>Type in your contact's name or email address.</li>
+                    <li>Your contact's information should appear.</li>
                 </ol>
             <a name="delete"></a><h3>Deleting a contact</h3>
                 <ol>
@@ -92,42 +107,50 @@
                     <li>Press the "To Top" to scroll down to the top of your contact list.</li>
                 </ol>  
 
-        <br/>
         <br/>         
 
-        <a name="call"></a><h2>Calling</h2>
+        <a name="call"></a><h2>Calling</h2>       
             <a name="placeCall"></a><h3>Placing calls</h3>
                 <ol>
-                    <li>Choose a contact from your contact list to call by pressing on the square.</li>
-                    <li>Press the green button with phone icon.</li>
-                    <li>Make sure your media volume at about 60% or higher. For example: (insert example pic)</li>
+                    <li>Press on a contact from your contact list to call.</li>
+                    <li>Press the green button with phone icon to right of your contact's email address.</li>
+                    <li>Make sure your media volume at about 70% or higher. For example: <br/>
+                        <img src="img/mediaVolume.jpg" width="25%" height="25%"/><br/></li>
                     <li>Choose an in-call communication method to use during the call:
+                        <br/><img src="img/keyboardOptions.jpg" width="25%" height="25%"/><br/>
                         <ul>
-                            <li><strong>(place icon here)Symbol board<sup>*</sup> -</strong> An array of buttons with symbols that,<br/>
+                            <li><strong>
+                                <object type="image/svg+xml" data="img/hello.svg" width="48px" height="48px">
+                                Your browser does not support SVG. This is an image of a symbol.
+                                </object>
+                                Symbol board<sup>*</sup> -</strong> An array of buttons with symbols that,<br/>
                                 when pressed, will display words that communicate what the symbol is portraying. <br/>
-                                Each button displays what will be converted to speech <br/> below the symbol image.</li>
-                            <li><strong>(place icon here)Standard keyboard<sup>*</sup> -</strong> Your device's keyboard that can <br/> 
-                                be used to construct sentences to send using text-to-speech.</li>
-                            <li><strong>(place icon here)No keyboard -</strong> For those who want to have a traditional phone call,<br/>
+                                Each button displays what will be converted to speech <br/> below the symbol image.<br/>
+                                Each time a symbol button is pressed, a new word or phrase will be added to a text <br/>
+                                box.</li>
+                            <li><img src="img/keyboard.png" width="40px" height="40px"/><strong> Standard keyboard<sup>*</sup> -</strong> Your device's keyboard that can <br/> 
+                                be used to construct sentences to be sent using text-to-speech.</li>
+                            <li><img src="img/keyboard-off.png" width="40px" height="40px"/><strong> No keyboard -</strong> For those who want to have a traditional phone call,<br/>
                                 without text-to-speech communication.</li>
-                            <p><sup>*</sup>Use the "Play" button to send the phrase/sentence you've put together <br/>
-                                using the communication method you've chosen. Use the "Clear" button to erase all<br/>
-                                of the words displayed in the text box.
+                                <p><sup><strong>*</strong></sup>During a call, use the "Play" button to send the phrase or sentence<br/>
+                                you've put together using the communication method you've chosen. <br/>
+                                Use the "Clear" button to erase all of the words you've typed.
                             </p>
                         </ul>
                     </li>
                 </ol>
             <a name="receiveCall"></a><h3>Receiving calls</h3>
+            <img src="img/incomingCall.jpg" width="25%" height="25%"/>
                 <ol>
-                    <li>Choose a communication method to use during the call. (See #4 in "Placing calls" for more<br/>
+                    <li>Choose a communication method to use during the call. (See #4 in "<a href="#placeCall">Placing calls</a>" for more<br/>
                         information on choosing an in-call communication method).</li>
-                    <li>Make sure your media volume at about 60% or higher. For example: (insert example pic).</li>
+                    <li>Make sure your media volume at about 70% or higher. For example: (insert example pic).</li>
                 </ol>
                 
         <br/>
-        <br/>
 
         <a name="accDetails"></a><h2>Account Details</h2>
+        <img src="img/accDetails.jpg" width="25%" height="25%"/>
             <ol>
                 <li>On the home page, press the "Account Details" button.</li>
                 <li>Your name and email address should be listed. You can also access this userguide from <br/> 

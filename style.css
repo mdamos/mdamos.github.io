@@ -1,0 +1,126 @@
+@import "fonts/stylesheet.css";
+@import "fonts/style.css";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Vegur Light';
+    background-color: #535353;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p#sidenote{
+    border: #535353 2px solid;
+    padding: 12px;
+}
+
+ul li img{
+    float: left;
+    padding-right: 8px;
+}
+
+#page-wrap{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #FFFFFF !important;
+    padding: 5%;
+}
+
+#table-wrap {
+    height: 410px;
+    border: #535353 3px solid;
+}
+
+#table-of-contents{
+    text-align: center;
+    align-content: center;
+    width: 60%;
+    height: inherit;
+    float: left;
+}
+
+#color-block{
+    float: right;
+    width: 39%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #535353;
+}
+ol li{
+    padding-bottom: 10px;
+}
+nav {
+    display: inline-block;
+}
+
+nav ul{
+    width: 100%;
+    text-align: left !important;
+    font-size: 23px !important;
+    
+}
+
+nav h2{
+    font-size: 27px;
+    color: #535353;
+}
+
+header img{
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Vegur Regular' !important;
+
+}
+
+h1, h3, ol, p{
+    color: #535353;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h1 {
+    font-family: 'quantifybold' !important;
+    text-align: center;
+    color: #86bb5f;
+}
+
+h1, h2 {
+    text-align: center;
+}
+p, ol {
+    font-size: 25px;
+}
+
+h2 {
+    color: #86bb5f;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #535353;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #86bb5f;
+    font-weight: bold;
+}
+
+footer h3{
+    color: #FFFFFF;
+    font-family: 'Vegur Light' !important;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}

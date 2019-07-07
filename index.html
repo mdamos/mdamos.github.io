@@ -14,9 +14,24 @@
     </head>
     <body>
         <div id="page-wrap">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <button onclick="toTopFunction()" id="toTopBtn">To Top of Page</button>      
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    document.getElementById("toTopBtn").style.display = "block";
+                }
+                else {
+                    document.getElementById("toTopBtn").style.display = "none";
+                }
+            }
+
+            function toTopFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
         <header>
             <center>
             <img src="img/InterAACt_logo_smaller_new.jpg" alt="InterAACt logo" width="50%" height="50%"/>
@@ -51,9 +66,9 @@
                     </ul>
                 </nav>
             </div>
-            <div id="color-block">
+            <!-- <div id="color-block"></div>-->
                 
-            </div>
+            
         </div>
 
         <br/>
@@ -61,10 +76,10 @@
 
         <a name="start"></a> <h2>Getting Started</h2>
             <p>To use InterAACt, you need to have a Google account. You can use this account to sign into the 
-                application. For the best experience, it is recommended that you <strong>use Google Chrome </strong>as your 
+                application. To get the most out of InterAACt, it is recommended that you <strong>use Google Chrome </strong>as your 
                 device's default browser, set your device's screen orientation to <strong>landscape mode</strong>, and that <strong>your
-                device is a tablet (8-inch screen or larger)</strong>. Make sure that you are connected to WiFi or using 
-                cellular data.</p>
+                device is a tablet (with an 8-inch screen or larger)</strong>. Make sure that you are connected to WiFi or using 
+                cellular data while using the application.</p>
 
         <br/>
         
@@ -74,7 +89,8 @@
                 <li>Press the "Sign in with Google" button.</li>
                 <li>Choose a Google account to sign in with. If none are listed, you either don't have any 
                     Google accounts or are not currently signed into any on your device.</li>
-                <li>Once you're logged in, your device's screen orientation will change to landscape mode.</li>
+                <li>Once you're logged in, your device's screen orientation will change to landscape mode, if 
+                    the device's orientation was not landscape prior to logging in.</li>
             </ol>  
             
 
@@ -84,13 +100,13 @@
             <a name="view"></a><h3>Viewing your contacts</h3>
                 <ol>
                     <li>On the home page, press the "View Contacts" button</li>
-                    <li>A list of your contacts should appear.</li>
+                    <li>A list of your contacts should appear, as shown in the image above.</li>
                 </ol>
             <a name="create"></a><h3>Creating a new contact</h3>
                 <ol>
                     <li>In the upper right-hand corner of your contact list, locate and press the "Create
                         Contact" button.</li>
-                    <li>Enter the contact's name & email address.</li>
+                    <li>Enter the contact's name and email address.</li>
                     <li>Save the contact by pressing the floppy disk icon on the top right-hand corner of 
                          the screen.</li>
                     <li>You will be directed back to the home page, where you can press "View Contacts" to

@@ -162,7 +162,7 @@ footer h3{
     }
 }
 
-@media(max-width: 730px) and (min-width: 500px){
+@media(max-width: 730px) and (min-width: 360px){
     #page-wrap{
         width: 90%;
         padding: 20px;

@@ -12,7 +12,7 @@ body{
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 60px;
+    right: 33px;
     z-index: 99;
     font-size: 16px;
     border: none;
@@ -46,7 +46,7 @@ ul li img{
 
 #page-wrap{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     background-color: #FFFFFF !important;
     padding: 2% 6%;
 }
@@ -140,4 +140,42 @@ footer h3{
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
+}
+
+@media(max-width: 1533px) and (min-width: 731px){
+    #page-wrap{
+        width: 70%;
+    }  
+
+    #table-of-contents{
+        width: 70%;
+    }
+
+    #table-wrap ul li {
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+
+    #toTopBtn{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media(max-width: 730px) and (min-width: 550px){
+    #page-wrap{
+        width: 90%;
+        padding: 20px;
+    }
+    #table-of-contents{
+        width: 70%;
+    }
+
+    #table-wrap ul li {
+        padding-right: 40px;
+    }
+
+    #toTopBtn{
+        right: 60px;
+    }
 }

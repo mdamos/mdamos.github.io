@@ -162,13 +162,13 @@ footer h3{
     }
 }
 
-@media(max-width: 730px) and (min-width: 550px){
+@media(max-width: 730px) and (min-width: 500px){
     #page-wrap{
         width: 90%;
         padding: 20px;
     }
     #table-of-contents{
-        width: 70%;
+        width: 90%;
     }
 
     #table-wrap ul li {
